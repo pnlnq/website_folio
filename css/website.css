@@ -1,0 +1,455 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px 25px;
+  background-color: white;
+  z-index: 100;
+}
+#folio {
+  color: #0090e1;
+  margin: 0;
+}
+.logo_txt h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 31.5px;
+}
+.rte_btn button {
+  font-family: "Work Sans", sans-serif;
+  background: #0090e1;
+  padding: 8px 30px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  border-radius: 15px;
+  font-size: 16px;
+  border: 0;
+  cursor: pointer;
+}
+.rte_btn button:hover {
+  background: #003858;
+}
+nav {
+  font-family: "Work Sans", sans-serif;
+  display: inline-block;
+  list-style: none;
+  margin-top: 0;
+}
+nav a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  margin: 20px;
+  font-size: 16px;
+}
+nav a:hover {
+  color: #0090e1;
+  border-bottom: 2px solid #0090e1;
+  padding-bottom: 3px;
+  transition: 0.3s;
+}
+.active {
+  color: #0090e1;
+  border-bottom: 2px solid #0090e1;
+  padding-bottom: 3px;
+  transition: 0.3s;
+}
+/*nav li {
+    display: inline;
+  }*/
+#banner {
+  padding: 190px 0px 0px 110px;
+  height: 100vh;
+}
+.hero_banner h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.2;
+  color: black;
+}
+.hero_banner h2 span {
+  color: #0090e1;
+  margin: 0;
+}
+.hero_banner p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 13px;
+  color: rgb(85, 85, 85);
+  line-height: 1.3;
+  margin-bottom: 28px;
+}
+.know_more_btn svg {
+  margin-right: 25px;
+  margin-top: 4px;
+  cursor: pointer;
+}
+.know_more_btn svg:hover {
+  fill: #0090e1;
+  transition: 0.3s;
+}
+.know_more_btn {
+  display: inline-flex;
+}
+.know_more_btn button {
+  font-family: "Work Sans", sans-serif;
+  background: #0090e1;
+  padding: 8px 30px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  border-radius: 15px;
+  font-size: 16px;
+  border: 0;
+  cursor: pointer;
+  margin-right: 30px;
+}
+.know_more_btn button:hover {
+  background: #003858;
+}
+.b_image {
+  width: 45%;
+  height: 85%;
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+}
+.b_image img {
+  height: 90%;
+  position: absolute;
+  bottom: 50px;
+  transform: translateX(30%);
+}
+#abt_me {
+  padding: 100px 0px 0px 0px;
+  height: 100vh;
+}
+.abt_intro p {
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  color: rgb(85, 85, 85);
+}
+.abt_intro h3 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+.abt_me_vid {
+  display: flex;
+  margin-top: 30px;
+  width: 100%;
+  height: 100;
+}
+.abt_me_vid video {
+  height: auto;
+  margin-left: 200px;
+  margin-right: 35px;
+}
+.abt_me_vid p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 13px;
+  color: black;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  width: 110%;
+}
+.abt_me_vid button {
+  padding: 8px 30px;
+}
+.abt_me_vid span {
+  font-weight: 550;
+}
+#join_btn {
+  font-family: "Work Sans", sans-serif;
+  background: #0090e1;
+  padding: 8px 30px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  border-radius: 15px;
+  font-size: 16px;
+  border: 0;
+  cursor: pointer;
+}
+#join_btn:hover {
+  background: #003858;
+}
+#contact_btn {
+  font-family: "Work Sans", sans-serif;
+  background: black;
+  padding: 8px 30px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  border-radius: 15px;
+  font-size: 16px;
+  border: 0;
+  margin-left: 15px;
+  cursor: pointer;
+}
+#contact_btn:hover {
+  border: 1.5px solid black;
+  background-color: transparent;
+  color: black;
+}
+#p_line {
+  color: #0090e1;
+}
+#p_1 {
+  padding-top: 0px 0px 15px 0px;
+}
+#p_2 {
+  padding-top: 100px 0px 15px 0px;
+}
+#skills {
+  margin: 105px;
+  height: 55vh;
+}
+.skills_intro {
+  padding-top: 90px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+}
+.menuNclose_icon {
+  display: none;
+}
+.icon_sec {
+  display: grid;
+  grid-template-columns: 350px 350px 350px;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.icon-box {
+  padding: 30px 20px 40px;
+  background: rgb(218, 218, 218);
+  border-radius: 20px;
+}
+.icon_sec h4 {
+  font-family: "Poppins", sans-serif;
+  margin-left: 15px;
+  font-size: 20px;
+}
+.icon_sec p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 13px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+.icon_sec a {
+  font-family: "Work Sans", sans-serif;
+  background: black;
+  padding: 8px 20px;
+  border-radius: 20px;
+  margin-left: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+.icon_sec a:hover {
+  border: 1.5px solid black;
+  background-color: transparent;
+  color: black;
+  transition: ease 0.3s;
+}
+.education_title {
+  padding-top: 100px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.education_title h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+}
+.eccs {
+  display: flex;
+  margin-bottom: 50px;
+}
+.eccs_logo {
+  margin-left: 300px;
+  width: 20%;
+  height: 20%;
+  margin-right: 30px;
+}
+.eccs_logo img {
+  width: 100%;
+  height: auto;
+}
+.eccs_des {
+  margin-right: 160px;
+  margin-top: 65px;
+}
+.eccs_des h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.eccs_des p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 15px;
+  color: rgb(85, 85, 85);
+}
+.pnhs {
+  display: flex;
+  margin-bottom: 50px;
+}
+.pnhs_logo {
+  margin-left: 327px;
+  width: 15%;
+  height: 15%;
+  margin-right: 60px;
+}
+.pnhs_logo img {
+  width: 100%;
+  height: auto;
+}
+.pnhs_des {
+  margin-right: 160px;
+  margin-top: 65px;
+}
+.pnhs_des h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.pnhs_des p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 15px;
+  color: rgb(85, 85, 85);
+}
+.cnhs {
+  display: flex;
+  margin-bottom: 50px;
+}
+.cnhs_logo {
+  margin-left: 327px;
+  width: 15%;
+  height: 15%;
+  margin-right: 60px;
+}
+.cnhs_logo img {
+  width: 100%;
+  height: auto;
+}
+.cnhs_des {
+  margin-right: 160px;
+  margin-top: 65px;
+}
+.cnhs_des h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.cnhs_des p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 15px;
+  color: rgb(85, 85, 85);
+}
+.ustp {
+  display: flex;
+  margin-bottom: 50px;
+}
+.ustp_logo {
+  margin-left: 360px;
+  width: 15%;
+  height: 15%;
+  margin-right: 90px;
+}
+.ustp_logo img {
+  width: 100%;
+  height: auto;
+}
+.ustp_des {
+  margin-right: 160px;
+  margin-top: 20px;
+}
+.ustp_des h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.ustp_des p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 15px;
+  color: rgb(85, 85, 85);
+}
+.contact_title {
+  padding-top: 100px;
+  text-align: center;
+}
+.contact_title h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+}
+.contact_icons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Three columns with equal width */
+  align-items: center;
+  gap: 3rem;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 150px;
+}
+.contact_sec {
+  background: rgb(218, 218, 218);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px 30px;
+  border-radius: 20px;
+}
+.contact_sec svg {
+  margin-bottom: 10px;
+}
+.contact_sec h4 {
+  font-family: "Poppins", sans-serif;
+}
+.contact_sec p {
+  font-family: "Work Sans", sans-serif;
+  margin-bottom: 20px;
+}
+.contact_sec a {
+  text-decoration: none;
+  font-family: "Work Sans", sans-serif;
+  border: 0;
+  background: black;
+  color: white;
+  padding: 7px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.contact_sec a:hover {
+  border: 1px solid black;
+  background-color: transparent;
+  color: black;
+  transition: 0.3s;
+}
+footer {
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+  background: black;
+  height: 15vh;
+  padding: 50px;
+}
+footer h4 {
+  font-weight: 250;
+  color: white;
+}

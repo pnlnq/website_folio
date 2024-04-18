@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paul.Folio</title>
+    <link rel="icon" href="images/paulfolio_logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/website.css">
+    <style>
+      /*Work Sans Font*/
+      @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lato:wght@100&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:wght@200&family=Open+Sans:wght@300&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:wght@100&family=Prosto+One&family=Raleway:wght@100&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+      /*Poppins Font*/
+      @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lato:wght@100&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:wght@200&family=Open+Sans:wght@300&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:wght@100&family=Prosto+One&family=Raleway:wght@100&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
+  </head>
+  <body>
+
+    <!--header section-->
+    <header>
+      <div class="logo_txt">
+        <h1 href="#banner">paul<span id="folio">.folio</span></h1>
+      </div>
+      <nav id="nav_bar">
+          <a href="#banner" class="nav_link active">Home</a></li>
+          <a href="#abt_me" class="nav_link">About Me</a></li>
+          <a href="#skills" class="nav_link">Skills</a></li>
+          <a href="#education" class="nav_link">Education</a></li>
+          <a href="#contacts" class="nav_link">Contacts</a></li>
+      </nav>
+      <div class="rte_btn">
+        <button onclick="window.open('paul_resume.pdf','_blank')">Download CV</button>
+      </div>
+      <div class="menuNclose_icon">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAExJREFUSEtjZKAxYKSx+QyjFhAM4QEJov8EnYVfAYqjsfmA5hZQ6AFU7QMSBzT3Ac3jgOYW0DyIhr4FNI8Dmlsw9ONg1AcoIUDz0hQAbegGGXzv/l0AAAAASUVORK5CYII=" style="width: 35px; height: 35px;" onclick="toggleMenu()"/>
+      </div>
+    </header>
+
+    <!--home section-->
+    <section id="banner" class="section">
+      <div class="hero_banner">
+        <h2>I'm<span> Paul Nino</span></h2>
+        <h2>a BSIT Student</h2>
+        <p>
+          Inhaling and exhaling air for 20 years. A Second Year BSIT Student
+          from
+          <br />
+          University of Science and Technology of Southern Philippines. I want
+          to
+          <br />finish my course and have a stable job to support my life.
+        </p>
+      </div>
+      <div class="know_more_btn">
+        <button onclick="window.open('paul_resume.pdf','_blank')">Download CV</button>
+        <!--facebook icon-->
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 50 50">
+          <path d="M25,3C12.85,3,3,12.85,3,25c0,11.03,8.125,20.137,18.712,21.728V30.831h-5.443v-5.783h5.443v-3.848 c0-6.371,3.104-9.168,8.399-9.168c2.536,0,3.877,0.188,4.512,0.274v5.048h-3.612c-2.248,0-3.033,2.131-3.033,4.533v3.161h6.588 l-0.894,5.783h-5.694v15.944C38.716,45.318,47,36.137,47,25C47,12.85,37.15,3,25,3z"></path>
+       </svg>
+        <!--instagram icon-->
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 50 50">
+          <path d="M 16 3 C 8.83 3 3 8.83 3 16 L 3 34 C 3 41.17 8.83 47 16 47 L 34 47 C 41.17 47 47 41.17 47 34 L 47 16 C 47 8.83 41.17 3 34 3 L 16 3 z M 37 11 C 38.1 11 39 11.9 39 13 C 39 14.1 38.1 15 37 15 C 35.9 15 35 14.1 35 13 C 35 11.9 35.9 11 37 11 z M 25 14 C 31.07 14 36 18.93 36 25 C 36 31.07 31.07 36 25 36 C 18.93 36 14 31.07 14 25 C 14 18.93 18.93 14 25 14 z M 25 16 C 20.04 16 16 20.04 16 25 C 16 29.96 20.04 34 25 34 C 29.96 34 34 29.96 34 25 C 34 20.04 29.96 16 25 16 z"></path>
+          </svg>
+        <!--github icon-->
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 50 50">
+          <path d="M17.791,46.836C18.502,46.53,19,45.823,19,45v-5.4c0-0.197,0.016-0.402,0.041-0.61C19.027,38.994,19.014,38.997,19,39 c0,0-3,0-3.6,0c-1.5,0-2.8-0.6-3.4-1.8c-0.7-1.3-1-3.5-2.8-4.7C8.9,32.3,9.1,32,9.7,32c0.6,0.1,1.9,0.9,2.7,2c0.9,1.1,1.8,2,3.4,2 c2.487,0,3.82-0.125,4.622-0.555C21.356,34.056,22.649,33,24,33v-0.025c-5.668-0.182-9.289-2.066-10.975-4.975 c-3.665,0.042-6.856,0.405-8.677,0.707c-0.058-0.327-0.108-0.656-0.151-0.987c1.797-0.296,4.843-0.647,8.345-0.714 c-0.112-0.276-0.209-0.559-0.291-0.849c-3.511-0.178-6.541-0.039-8.187,0.097c-0.02-0.332-0.047-0.663-0.051-0.999 c1.649-0.135,4.597-0.27,8.018-0.111c-0.079-0.5-0.13-1.011-0.13-1.543c0-1.7,0.6-3.5,1.7-5c-0.5-1.7-1.2-5.3,0.2-6.6 c2.7,0,4.6,1.3,5.5,2.1C21,13.4,22.9,13,25,13s4,0.4,5.6,1.1c0.9-0.8,2.8-2.1,5.5-2.1c1.5,1.4,0.7,5,0.2,6.6c1.1,1.5,1.7,3.2,1.6,5 c0,0.484-0.045,0.951-0.11,1.409c3.499-0.172,6.527-0.034,8.204,0.102c-0.002,0.337-0.033,0.666-0.051,0.999 c-1.671-0.138-4.775-0.28-8.359-0.089c-0.089,0.336-0.197,0.663-0.325,0.98c3.546,0.046,6.665,0.389,8.548,0.689 c-0.043,0.332-0.093,0.661-0.151,0.987c-1.912-0.306-5.171-0.664-8.879-0.682C35.112,30.873,31.557,32.75,26,32.969V33 c2.6,0,5,3.9,5,6.6V45c0,0.823,0.498,1.53,1.209,1.836C41.37,43.804,48,35.164,48,25C48,12.318,37.683,2,25,2S2,12.318,2,25 C2,35.164,8.63,43.804,17.791,46.836z"></path>
+        </svg>
+      </div>
+      <div class="b_image">
+        <img src="images/paul_pic.png" alt="errorpic" />
+      </div>
+    </section>
+
+    <!--about me section-->
+    <section id="abt_me" class="section">
+      <div class="abt_intro">
+        <p>Get to Know More</p>
+        <h3>About Me</h3>
+      </div>
+      <div class="abt_me_vid">
+        <video src="videos/about_me_vid.mp4" width="450px" controls autoplay muted loop></video>
+        <div class="abt_me_p">
+          <p>
+            Hey there! I'm Paul Nino B. Salaan, a passionate student with a course of
+            <br><span>Bachelor of Science in Information Technology</span> at <span>University of Science
+            <br>and Technology of Southern Philippines.</span>
+          </p>
+          <p>
+            Outside of the classroom, I enjoy playing piano, online mobile games and
+            <br>sleeping if I had  a free time.
+          </p>
+          <p>
+            As I continue my educational journey, I'm excited to learn more and I'm
+            <br>always open to new opportunities and experiences that will shape my
+            <br>path forward.
+          </p>
+          <p>
+            Let's connect and embark on this journey together!
+          </p>
+          <button id="join_btn">Join Me</button>
+          <button id="contact_btn"><a href="#contacts"></a>Contact Me</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="skills_intro">
+            <h4>My Skills</h4>
+        </div>
+        <div class="icon_sec">
+          <div class="icon-box">
+            <!--figma icon-->
+            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 48 48">
+              <path fill="#e64a19" d="M26,17h-8c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h8V17z"></path><path fill="#7c4dff" d="M25,31h-7c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h7V31z"></path><path fill="#66bb6a" d="M18,45L18,45c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h7v7C25,41.866,21.866,45,18,45z"></path><path fill="#ff7043" d="M32,17h-7V3h7c3.866,0,7,3.134,7,7v0C39,13.866,35.866,17,32,17z"></path><circle cx="32" cy="24" r="7" fill="#29b6f6"></circle>
+            </svg>
+            <h4>Figma</h4>
+            <p>UI/UX Designer</p>
+            <a href="#">Design Now</a>
+          </div>
+  
+          <div class="icon-box">
+            <!--html icon-->
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="80" height="80" viewBox="0 0 48 48">
+              <linearGradient id="SNASnMitCxQrIYk4GDibta_v8RpPQUwv0N8_gr1" x1="18.208" x2="34.159" y1="2.413" y2="46.236" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#f09701"></stop><stop offset="1" stop-color="#e36001"></stop></linearGradient><path fill="url(#SNASnMitCxQrIYk4GDibta_v8RpPQUwv0N8_gr1)" d="M7.192,7.176l2.627,29.77c0.109,1.237,0.97,2.28,2.164,2.621l10.643,3.041	c0.898,0.257,1.849,0.257,2.747,0l10.643-3.041c1.194-0.341,2.055-1.383,2.164-2.621l2.627-29.77C40.911,6.006,39.99,5,38.816,5	H9.184C8.01,5,7.089,6.006,7.192,7.176z"></path><path fill="#f09601" d="M24,8v31.9l9.876-2.822c0.797-0.228,1.371-0.924,1.443-1.749l2.286-26.242	C37.656,8.502,37.196,8,36.609,8H24z"></path><path fill="#fff" d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5L24,25z M32.9,17l0.3-4H24v4H32.9z"></path><path fill="#d6e0e9" d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z"></path><path d="M33.2,13l-0.3,4H24h-4.9l0.3,4H24h8.6l-0.7,11.5L24,35.1l-7.9-2.6L15.7,27h4l0.2,2.5l4.1,1.4l4.1-1.4l0.3-4.5H24h-8.4 l-0.7-12H24H33.2 M34.278,12H33.2H24h-9.1h-1.06l0.062,1.058l0.7,12L14.657,26h-0.032l0.078,1.073l0.4,5.5l0.049,0.668 l0.636,0.209l7.9,2.6L24,36.153l0.313-0.103l7.9-2.6l0.644-0.212l0.041-0.677l0.7-11.5L33.663,20H32.6H24h-3.672l-0.15-2H24h8.9 h0.928l0.069-0.925l0.3-4L34.278,12L34.278,12z M20.623,26H24h3.331l-0.185,2.769L24,29.843l-3.156-1.077l-0.148-1.846L20.623,26 L20.623,26z" opacity=".05"></path><path d="M33.2,13l-0.3,4H24h-4.9l0.3,4H24h8.6l-0.7,11.5L24,35.1l-7.9-2.6L15.7,27h4l0.2,2.5l4.1,1.4l4.1-1.4l0.3-4.5H24h-8.4 l-0.7-12H24H33.2 M33.739,12.5H33.2H24h-9.1h-0.53l0.031,0.529l0.7,12l0.027,0.471H15.6H24h3.866l-0.242,3.634L24,30.372 l-3.628-1.239l-0.174-2.173l-0.037-0.46H19.7h-4h-0.538l0.039,0.536l0.4,5.5l0.024,0.334l0.318,0.105l7.9,2.6L24,35.626 l0.156-0.051l7.9-2.6l0.322-0.106l0.021-0.339l0.7-11.5l0.032-0.53H32.6H24h-4.136l-0.225-3H24h8.9h0.464l0.035-0.463l0.3-4 L33.739,12.5L33.739,12.5z" opacity=".07"></path>
+            </svg>
+            <h4>HTML</h4>
+            <p>Standard Markup Language</p>
+            <a href="#">Code Now</a>
+          </div>
+  
+          <!--<div class="icon-box">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
+              <path fill="#50e6ff" d="M36,6H12c-3.314,0-6,2.686-6,6v24c0,3.314,2.686,6,6,6h24c3.314,0,6-2.686,6-6V12	C42,8.686,39.314,6,36,6z"></path><path fill="#092347" d="M36,40H12c-2.209,0-4-1.791-4-4V12c0-2.209,1.791-4,4-4h24c2.209,0,4,1.791,4,4v24	C40,38.209,38.209,40,36,40z"></path><path fill="#fff" d="M14.507,15.372c0-0.106,0.077-0.195,0.182-0.207c0.4-0.044,1.516-0.135,3.897-0.135 c3.588,0,6.101,1.423,6.101,5.317c0,3.512-2.391,5.573-6.249,5.573c-0.225,0-0.45,0-1.216,0v5.882c0,0.098-0.08,0.178-0.178,0.178 h-2.358c-0.098,0-0.178-0.08-0.178-0.178V15.372z M17.222,23.447c0,0,1.187,0.008,1.455,0.008c2.203,0,3.205-1.306,3.205-3.056 c0-1.639-0.974-2.917-3.01-2.917c-0.839,0-1.649,0.048-1.649,0.048V23.447z"></path><path fill="#fff" d="M26.156,28.97c0-0.095,0.103-0.154,0.182-0.102c0.504,0.337,1.527,0.914,3.111,0.914 c1.034,0,1.688-0.445,1.688-1.171c0-0.804-1.105-1.387-2.017-1.882c-0.907-0.492-2.944-1.282-2.944-3.826 c0-2.255,1.802-3.615,4.256-3.615c0.94,0,1.977,0.146,2.677,0.401c0.115,0.042,0.185,0.154,0.185,0.277l0,2.291 c0,0.094-0.099,0.155-0.178,0.103c-0.439-0.287-1.407-0.726-2.739-0.726c-1.109,0-1.597,0.54-1.597,1.09 c0,0.964,1.284,1.367,2.436,2.043c1.797,1,2.63,1.977,2.63,3.508c0,2.504-1.867,3.91-4.396,3.91c-1.306,0-2.534-0.285-3.162-0.667 c-0.087-0.053-0.131-0.149-0.131-0.251L26.156,28.97z"></path>
+              </svg>
+            <h4>Photoshop</h4>
+            <p>Photo Editor</p>
+            <a href="#">Edit Now</a>
+          </div>-->
+  
+          <div class="icon-box">
+            <!--css icon-->
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="80" height="80" viewBox="0 0 48 48">
+              <linearGradient id="TQDriqswrKwPOniLrPT12a_7gdY5qNXaKC0_gr1" x1="16.33" x2="32.293" y1="-2.748" y2="41.109" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#2aa4f4"></stop><stop offset="1" stop-color="#007ad9"></stop></linearGradient><path fill="url(#TQDriqswrKwPOniLrPT12a_7gdY5qNXaKC0_gr1)" d="M7.192,7.176l2.627,29.77c0.109,1.237,0.97,2.28,2.164,2.621l10.643,3.041	c0.898,0.257,1.849,0.257,2.747,0l10.643-3.041c1.194-0.341,2.055-1.383,2.164-2.621l2.627-29.77C40.911,6.006,39.99,5,38.816,5	H9.184C8.01,5,7.089,6.006,7.192,7.176z"></path><path fill="#35c1f1" d="M24,8v31.9l9.876-2.822c0.797-0.228,1.371-0.924,1.443-1.749l2.286-26.242	C37.656,8.502,37.196,8,36.609,8H24z"></path><path fill="#fff" d="M33.1,13H24v4h4.9l-0.3,4H24v4h4.4l-0.3,4.5L24,30.9v4.2l7.9-2.6L32.6,21l0,0L33.1,13z"></path><path fill="#d6e0e9" d="M24,13v4h-8.9l-0.3-4H24z M19.4,21l0.2,4H24v-4H19.4z M19.8,27h-4l0.3,5.5l7.9,2.6v-4.2l-4.1-1.4	L19.8,27z"></path><path d="M33.1,13l-0.5,8l-0.7,11.5L24,35.1l-7.9-2.6L15.8,27h4l0.1,2.5l4.1,1.4l4.1-1.4l0.3-4.5H24h-4.4l-0.2-4H24h4.6l0.3-4H24 h-8.9l-0.3-4H24H33.1 M34.164,12H33.1H24h-9.2h-1.078l0.081,1.075l0.3,4L14.172,18H15.1H24h3.822l-0.15,2H24h-4.6h-1.051 l0.052,1.05l0.2,4L18.649,26H15.8h-1.056l0.058,1.054l0.3,5.5l0.037,0.682l0.649,0.214l7.9,2.6L24,36.153l0.313-0.103l7.9-2.6 l0.644-0.212l0.041-0.677l0.7-11.5l0.5-7.998L34.164,12L34.164,12z M20.761,26H24h3.331l-0.185,2.769L24,29.843l-3.128-1.068 l-0.073-1.815L20.761,26L20.761,26z" opacity=".05"></path><path d="M33.1,13l-0.5,8l-0.7,11.5L24,35.1l-7.9-2.6L15.8,27h4l0.1,2.5l4.1,1.4l4.1-1.4l0.3-4.5H24h-4.4l-0.2-4H24h4.6l0.3-4H24 h-8.9l-0.3-4H24H33.1 M33.632,12.5H33.1H24h-9.2h-0.539l0.04,0.537l0.3,4l0.035,0.463H15.1H24h4.361l-0.225,3H24h-4.6h-0.526 l0.026,0.525l0.2,4l0.024,0.475H19.6H24h3.866l-0.242,3.634L24,30.372l-3.614-1.234L20.3,26.98L20.28,26.5H19.8h-4h-0.528 l0.029,0.527l0.3,5.5l0.019,0.341l0.324,0.107l7.9,2.6L24,35.626l0.156-0.051l7.9-2.6l0.322-0.106l0.021-0.339l0.7-11.5l0.5-7.999 L33.632,12.5L33.632,12.5z" opacity=".07"></path>
+              </svg>
+            <h4>CSS</h4>
+            <p>Cascading Style Sheet</p>
+            <a href="#">Style Now</a>
+          </div>
+        </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="education_title">
+        <h4>My Education Background</h4>
+      </div>
+      <div class="eccs">
+        <div class="eccs_logo">
+          <img src="images/eccs_logo.jpg" alt="eccs">
+        </div>
+        <div class="eccs_des">
+          <h4>East City Central School 2010-2016</h4>
+          <p>Graduated in 2016</p>
+        </div>
+      </div>
+
+      <div class="pnhs">
+        <div class="pnhs_logo">
+          <img src="images/pnhs_logo_2.jpg" alt="pnhs">
+        </div>
+        <div class="pnhs_des">
+          <h4>Pagatpat National High School 2017-2020</h4>
+          <p>Graduated in 2020</p>
+        </div>
+      </div>
+
+      <div class="cnhs">
+        <div class="cnhs_logo">
+          <img src="images/cnhs_logo.jpg" alt="cnhs">
+        </div>
+        <div class="cnhs_des">
+          <h4>Canitoan National High School 2021-2022</h4>
+          <p>NC2 Passer in Computer System Servicing
+            <br>Graduated in 2022
+          </p>
+        </div>
+      </div>
+
+      <div class="ustp">
+        <div class="ustp_logo">
+          <img src="images/ustp_logo.png" alt="ustp">
+        </div>
+        <div class="ustp_des">
+          <h4>University of Science and Technology of Southern Philippines 2022-Active</h4>
+          <p>2nd Year Student - Bachelor of Science in Information Technology</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacts" class="section">
+      <div class="contact_title">
+        <h4>My Contacts</h4>
+      </div>
+      <div class="contact_icons">
+
+        <div class="contact_sec">
+          <!--gmail icon-->
+          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: msFilter"><path d="m18.73 5.41-1.28 1L12 10.46 6.55 6.37l-1.28-1A2 2 0 0 0 2 7.05v11.59A1.36 1.36 0 0 0 3.36 20h3.19v-7.72L12 16.37l5.45-4.09V20h3.19A1.36 1.36 0 0 0 22 18.64V7.05a2 2 0 0 0-3.27-1.64z"></path></svg>
+          <div class="contact_txt">
+            <h4>Gmail</h4>
+            <p>paulninosalaan75@gmail.com</p>
+            <a href="mailto:paulninosalaan75@gmail.com" target="_blank">Message Me</a>
+          </div>
+        </div>
+
+        <div class="contact_sec">
+          <!--phone icon-->
+          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: msFilter"><path d="m20.487 17.14-4.065-3.696a1.001 1.001 0 0 0-1.391.043l-2.393 2.461c-.576-.11-1.734-.471-2.926-1.66-1.192-1.193-1.553-2.354-1.66-2.926l2.459-2.394a1 1 0 0 0 .043-1.391L6.859 3.513a1 1 0 0 0-1.391-.087l-2.17 1.861a1 1 0 0 0-.29.649c-.015.25-.301 6.172 4.291 10.766C11.305 20.707 16.323 21 17.705 21c.202 0 .326-.006.359-.008a.992.992 0 0 0 .648-.291l1.86-2.171a.997.997 0 0 0-.085-1.39z"></path></svg>
+          <div class="contact_txt">
+            <h4>Phone</h4>
+            <p>0919-487-1553</p>
+            <a href="">Call Me</a>
+          </div>
+        </div>
+
+        <div class="contact_sec">
+          <!--github icon-->
+          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: msFilter"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2z"></path></svg>
+          <div class="contact_txt">
+            <h4>Github</h4>
+            <p>pnlnq</p>
+            <a href="https://github.com/pnlnq" target="_blank">Visit Me</a>
+          </div>
+        </div>
+
+        <div class="contact_sec">
+          <!--facebook icon-->
+          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: msFilter"><path d="M12.001 2.002c-5.522 0-9.999 4.477-9.999 9.999 0 4.99 3.656 9.126 8.437 9.879v-6.988h-2.54v-2.891h2.54V9.798c0-2.508 1.493-3.891 3.776-3.891 1.094 0 2.24.195 2.24.195v2.459h-1.264c-1.24 0-1.628.772-1.628 1.563v1.875h2.771l-.443 2.891h-2.328v6.988C18.344 21.129 22 16.992 22 12.001c0-5.522-4.477-9.999-9.999-9.999z"></path></svg>
+          <div class="contact_txt">
+            <h4>Facebook</h4>
+            <p>Paul Salaan</p>
+            <a href="https://www.facebook.com/paulnino.naalas" target="_blank">Follow Me</a>
+          </div>
+        </div>
+      </div> 
+    </section>
+
+    <footer>
+      <h4>&#169; 2024 paul.folio. All rights reserved.</h4>
+    </footer>
+
+  </body>
+
+  <script type="text/javascript">
+
+    const navLinkEls = document.querySelectorAll('.nav_link');
+    const sectionEls = document.querySelectorAll('.section');
+
+    let currentSection = 'banner';
+    window.addEventListener('scroll', () => {
+        sectionEls.forEach(sectionEl => {
+            if(window.scrollY >= (sectionEl.offsetTop - 200)) {
+                currentSection = sectionEl.id;
+            }
+        });
+
+        navLinkEls.forEach(navLinkEl => {
+            if(navLinkEl.href.includes(currentSection)) {
+                document.querySelector('.active').classList.remove('active');
+                navLinkEl.classList.add('active');
+            }
+        });
+    })
+  </script>
+</html>
